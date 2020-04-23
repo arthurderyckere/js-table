@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  table:focus thead td {
+    background-color: gray;
+  }
+  thead td {
+    font-weight: 250;
+    color: white;
+    background-color: dimgray;
+  }
+  table, th, td {
+    border: 1px solid black;
+    height: 20px;
+  }
+  
+  *{
+   font-family: sans-serif; 
+  }
+  tr.selected {
+    background-color: lightgray;
+  }
+  td.selected {
+     background-color: lightgray;
+  }
+  .searchResults {
+    padding-top: 10px;
+  }
